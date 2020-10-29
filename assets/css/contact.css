@@ -1,0 +1,61 @@
+body {
+    background: url('../img/19742.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.stripe { 
+    border: 1px solid lightgray; 
+    width: 100%; 
+    margin: auto; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.container {
+    float: left;
+    color: teal;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 85%;
+    height: 100%;
+}
+
+.space {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#contact {
+    background-color: white;
+    width: 85vw;
+    padding: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+#contact {
+    background-color: white;
+    margin-left: 20px;
+    width: 80%;
+}
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+  
